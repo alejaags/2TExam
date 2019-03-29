@@ -1,4 +1,6 @@
 # Parcial 2 ARSW-T2
+## https://gomezsanchezarswt2.herokuapp.com/
+### Nota esperada 3
 
 Parcial del segundo tercio
 
