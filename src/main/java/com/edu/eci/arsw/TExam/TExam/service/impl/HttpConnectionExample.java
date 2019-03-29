@@ -28,7 +28,6 @@ public class HttpConnectionExample implements HttpConnect{
     private static final String GET_URL = "http://api.openweathermap.org/data/2.5/weather?q=";
     private static final String GET_URLEND = "&appid=fde9115f7f57cda0b34af529884fb8c4";  
     private HashMap<String, String> cache = new HashMap();
-    
 
     @Override
     public String weatherCity(String city) {
@@ -58,7 +57,4 @@ public class HttpConnectionExample implements HttpConnect{
         }
     }
     
-    
-
-
 }
