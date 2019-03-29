@@ -16,12 +16,14 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.springframework.stereotype.Service;
 
 /**
  *
  * @author 2110111
  * api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=fde9115f7f57cda0b34af529884fb8c4
  */
+@Service
 public class HttpConnectionExample implements HttpConnect{
     
     private static final String USER_AGENT = "Mozilla/5.0";
